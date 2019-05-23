@@ -6,40 +6,35 @@ body {
     font-weight: bold;
 }
 a, a:active, a:link, a:visited {
-    color: #f00bbe;
+    color: #dedee0;
     font-size: 14px;
     text-decoration: none;
 }
 a:hover {
-    color: #f00bbe80;
+    color: #fff
 }
 .container {
     width: 100%;
     height: 323px;
 }
-.head-main {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-}
-/* .login {
+.login {
     width: 500px;
     height: 323px;
     border: 2px solid #a1a1a1;
     box-shadow: inset 0 0 5px #a1a1a1;
     border-radius: 10px;
     margin: 10% auto;
-} */
-header {
+}
+.form_header {
     width: 100%;
-    height: 230px;
+    height: 10%;
     background-color: #dedee0;
     border-bottom: 2px solid #a1a1a1;
     text-align: center;
-    padding: 1% 0 0 0;
+    padding: 3% 0 0 0;
     border-radius: 10px 10px 0 0;
 }
-#contact {
-    width: 500px;
+.form {
     background-color: #eff0f2;
     padding: 5% 5%;
     border-radius: 0 0 10px 10px;
@@ -50,14 +45,44 @@ input[type="password"] {
     font-size: 20px;
     width: 450px;
     font-family: caption;
-    border: 3px double #dedee0;
+    border: 4px double #dedee0;
     padding: 5px;
-    margin: 3% 0 0 3%;
+    margin: 5% 0 0 3%;
 }
 input[type="text"]:focus,
 input[type="password"]:focus {
     border: 0 0 5px #000;
     box-shadow: inset 0 0 10px #03f8f879;
 }
-
-
+.btn {
+    outline: none;
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 20px;
+    width: 125px;
+    height: 50px;
+    margin: 45px 0 0 110px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #dedee0;
+    border: 2px solid salmon;
+}
+.btn:hover {
+    color: #000;
+    background-color: #dedee0;
+    box-shadow: inset 0 0 5px rgb(255, 129, 129);
+}
+.chk {
+    margin: 5% 0 0 5%;
+}
+.rem {
+    margin: 5% 0 0 10px;
+    font-size: 12px;
+}
+.forgot {
+    width: 100%;
+    font-size: 3rem;
+}
+.forgot a {
+    margin: 0 0 0 35%;
+}
